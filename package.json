@@ -1,0 +1,32 @@
+{
+  "name": "pd-interview-screener",
+  "version": "0.0.0",
+  "description": "Programming challenges for Pear Deck hiring process!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register **/**/*.test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:peardeck/pd-interview-screener.git"
+  },
+  "keywords": [
+    "pear",
+    "deck",
+    "interview",
+    "challenge"
+  ],
+  "author": "Riley Eynon-Lynch",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/peardeck/pd-interview-screener/issues"
+  },
+  "homepage": "https://github.com/peardeck/pd-interview-screener",
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
