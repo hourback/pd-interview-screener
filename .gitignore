@@ -24,3 +24,6 @@ xcuserdata
 CVS
 node_modules/.bin/_mocha
 node_modules/chai/.npmignore
+
+# npm debug
+npm-debug.log
